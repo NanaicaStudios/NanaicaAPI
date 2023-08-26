@@ -2,7 +2,7 @@
   "openapi": "3.0.3",
   "info": {
     "title": "NanaicaMC API",
-    "version": "2.0"
+    "version": "1.0"
   },
   "servers": [
     {
@@ -123,8 +123,8 @@
                 },
                 "example": {
                   "code": 200,
-                  "project_id": "leaves",
-                  "project_name": "Leaves",
+                  "project_id": "nanaica",
+                  "project_name": "Nanaica",
                   "version_groups": [
                     "1.20",
                     "1.19"
@@ -318,8 +318,8 @@
                 },
                 "example": {
                   "code": 200,
-                  "project_id": "leaves",
-                  "project_name": "Leaves",
+                  "project_id": "nanaica",
+                  "project_name": "Nanaica",
                   "version": "1.20",
                   "builds": [
                     {
