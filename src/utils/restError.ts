@@ -6,7 +6,7 @@ class RestError {
         response.status = 400;
         response.response = {
             code: 400,
-            msg: "Bad Request"
+            msg: "Bad Request Please Try Again"
         };
     }
 
@@ -15,7 +15,7 @@ class RestError {
         response.status = 401;
         response.response = {
             code: 401,
-            msg: "Unauthorized"
+            msg: "Unauthorized. Contact Your Administrator If This Is A Mistake"
         };
     }
 
@@ -24,7 +24,7 @@ class RestError {
         response.status = 404;
         response.response = {
             code: 404,
-            msg: "Not Found"
+            msg: "Not Found Try Again"
         };
     }
 
@@ -33,7 +33,7 @@ class RestError {
         response.status = 500;
         response.response = {
             code: 500,
-            msg: "An error occurred"
+            msg: "An error occurred. Contact The Admin Of This Project"
         };
     }
 }
